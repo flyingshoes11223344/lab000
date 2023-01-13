@@ -4,9 +4,9 @@
  * This class represents a person The person has a first name, last name and an year of birth.
  */
 class Person {
-  private String firstName;
-  private String lastName;
-  private int yearOfBirth;
+  private final String firstName;
+  private final String lastName;
+  private final int yearOfBirth;
 
   /**
    * Constructs a Person object and initializes it to the given first name, last name and year of

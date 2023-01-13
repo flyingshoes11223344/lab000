@@ -4,9 +4,9 @@
  * This class represents a book. A book has a title, an author and a price.
  */
 public class Book {
-  private String title;
-  private Person author;
-  private float price;
+  private final String title;
+  private final Person author;
+  private final float price;
 
   /**
    * Construct a Book object that has the provided title, author and  price.
